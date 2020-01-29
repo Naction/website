@@ -1,6 +1,123 @@
+
+     
+    .bubbles {
+
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    }
+     
+    .bubble {
+    position: absolute;
+    bottom: -40;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    animation: bubble 10s ease-in infinite;
+    }
+     
+    .bubble:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    left: 30%;
+    animation-duration: 6s;
+    }
+     
+    .bubble:nth-child(2) {
+    left: 20%;
+    animation-duration: 3.5s;
+    }
+     
+    .bubble:nth-child(3) {
+    width: 30px;
+    height: 30px;
+    left: 30%;
+    animation-duration: 7s;
+    }
+     
+    .bubble:nth-child(4) {
+    width: 50px;
+    height: 50px;
+    left: 67%;
+    animation-duration: 6s;
+    }
+     
+    .bubble:nth-child(5) {
+    width: 20px;
+    height: 20px;
+    left: 70%;
+    animation-duration: 4.5s;
+    }
+     
+    @keyframes bubble {
+      0% {
+        bottom: -100px;
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(100px);
+      }
+      100% {
+        bottom: 2000px;
+      }
+    }
+
 body{
-    background-color:black ;
+    
+
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Neue Helvetica W01', 'AXIS Font Japanese W55', 'Helvetica Neue', sans-serif;;
 }
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 20px;
+}
+.main-img{
+    background-image: url('../img/photo-1560259324-12a044e67c34.jpeg');
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+}
+.main-img h1{
+    padding-top: 500px;
+    color:white;
+    text-shadow:5px 5px 5px black 
+}
+.container1{
+    height: 5000px;
+    background: linear-gradient( #06223a,black ) fixed;
+}
+.container2{
+    height: 5000px;
+    background: linear-gradient( #051e35,black ) fixed;
+}
+.container3{
+    height: 5000px;
+    background: linear-gradient( #021322,black ) fixed;
+
+}
+
+.container4{
+    height: 5000px;
+    background: linear-gradient( #010a12,black ) fixed;
+
+}
+
+.container5{
+    height: 5000px;
+    background: black;
+
+}
+
 
 .loader,
 .loader:before,
