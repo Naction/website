@@ -17,6 +17,13 @@ dd{
 }
 h2{
   text-align: center;
+  margin: 50px;
+}
+p{
+  margin: 50px;
+}
+h3{
+  text-align: center;
 }
 
 .box1{
