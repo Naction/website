@@ -2,12 +2,30 @@
 
 body{
     
-
+    font-size: 20px;
     background-color: black;
     color: blanchedalmond;
     font-family: 'Neue Helvetica W01', 'AXIS Font Japanese W55', 'Helvetica Neue', sans-serif;;
 }
 
+dd{
+  display: none;
+}
+#how{
+  cursor: pointer;
+
+}
+h2{
+  text-align: center;
+}
+
+.box1{
+  display: flex;
+}
+
+.textbox{
+  margin: 15px;
+}
 
 header{
     display:flex;
@@ -28,12 +46,12 @@ header{
 }
 .container1{
     height: 1000px;
-    background: linear-gradient( #06223a,black ) fixed;
+    /* background: linear-gradient( #06223a,black ) fixed; */
 }
 .container2{
     height: 1000px;
     
-    background: linear-gradient( #051e35,black ) fixed;
+    /* background: linear-gradient( #051e35,black ) fixed; */
 }
 .container4 img{
     float: right;
@@ -41,19 +59,19 @@ header{
 }
 .container3{
     height: 1000px;
-    background: linear-gradient( #021322,black ) fixed;
+    /* background: linear-gradient( #021322,black ) fixed; */
 
 }
 
 .container4{
     height: 1000px;
-    background: linear-gradient( #010a12,black ) fixed;
+    /* background: linear-gradient( #010a12,black ) fixed; */
 
 }
 
 .container5{
     height: 1000x;
-    background: black;
+    /* background: black; */
 
 }
 .container5 img{
