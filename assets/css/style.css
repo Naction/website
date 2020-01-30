@@ -8,13 +8,12 @@ body{
     font-family: 'Neue Helvetica W01', 'AXIS Font Japanese W55', 'Helvetica Neue', sans-serif;;
 }
 
+
 header{
     display:flex;
     justify-content: space-between;
     margin: 15px;
     font-size: 20px;
-    color: blue;
-    text-shadow:5px 5px 5px white ;
 }
 .main-img{
     background-image: url('../img/photo-1560259324-12a044e67c34.jpeg');
@@ -28,30 +27,37 @@ header{
     text-shadow:5px 5px 5px black 
 }
 .container1{
-    height: 5000px;
+    height: 1000px;
     background: linear-gradient( #06223a,black ) fixed;
 }
 .container2{
-    height: 5000px;
+    height: 1000px;
     
     background: linear-gradient( #051e35,black ) fixed;
 }
+.container4 img{
+    float: right;
+    width: 70%;
+}
 .container3{
-    height: 5000px;
+    height: 1000px;
     background: linear-gradient( #021322,black ) fixed;
 
 }
 
 .container4{
-    height: 5000px;
+    height: 1000px;
     background: linear-gradient( #010a12,black ) fixed;
 
 }
 
 .container5{
-    height: 5000px;
+    height: 1000x;
     background: black;
 
+}
+.container5 img{
+    width: 30%;
 }
 
 
