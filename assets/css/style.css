@@ -113,3 +113,32 @@ header{
     height: 5em;
   }
 }
+
+.fadein {
+  opacity: 0;
+  transform : translate(0 10px);
+  transition : all 3000ms;
+}
+/* .fadein-left {
+  opacity: 0;
+  transform : translateX(10px);
+  transition : all 1500ms;
+} */
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@media screen and (max-width:600px) { 
+  /*　画面サイズが480pxからはここを読み込む　*/
+.box1{
+  display: inline-block;
+}
+.fish4{
+  float: right;
+}
+.fish10{
+  float: right;
+}
+}
