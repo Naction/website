@@ -5,11 +5,6 @@ $('html').ripples({
     resolution: 400
 });
 
-
-// $('.fish4').scroll(function(){
-//     $()
-// })
-
 $('#how').on('click',function(){
     $(this).siblings().slideToggle();
 });
@@ -20,7 +15,7 @@ $(window).scroll(function (){
         var elemPos = $(this).offset().top,
             scroll = $(window).scrollTop(),
             windowHeight = $(window).height();
-          if (scroll > elemPos - windowHeight + 100){
+          if (scroll > elemPos - windowHeight + 100){　　//スクロールした量 > 要素からtopまでの高さ - ブラウザの高さ + 100
               $(this).addClass('scrollin');
             }
         });
